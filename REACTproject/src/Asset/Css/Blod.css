@@ -1,0 +1,57 @@
+#ENTIRE-PAGE{
+    background-color: #EEEEEE;
+  }
+  #FLEX-CHILD1{
+      border-radius: 10px;
+  }
+  #FLEX-CHILD2{
+      border-radius: 10px;
+  }
+  
+  .Grid-container {
+    display: flex;
+    position:relative;
+    flex-direction: row;
+  }
+  #child2{
+    margin-left: 5vw;
+    margin-top: 5vw;
+    align-content: center;
+  
+  }
+  .image1{
+    border-radius: 5px;
+    height: 100%;
+    width: 45vw;
+  }
+  .bloodType{
+    margin-left: 5vw;
+    display: flex;
+    gap: 10vw;
+  }
+  #name{
+      margin-left: 5vw;
+      display:flex;
+      align-items: center;
+      flex-direction: row;
+      gap: 5vw;
+  }
+  .Button{
+   margin-left: 20vw;
+  }
+  
+  
+  #ENTIRE-PAGE{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: flex-start;
+    gap: 2vw;
+  }
+   .phoneEmail{
+    display:flex;
+    flex-direction: row;
+    gap: 5vw;
+    
+  }

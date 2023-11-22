@@ -1,0 +1,214 @@
+body{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.div{
+  display : flex;
+  flex-direction : column;
+  gap : 0.9rem;
+  background-color:rgba(255, 255, 255, 0.511);
+  width: 24vw;
+  height: 60vh;
+  border: 2px solid rgb(244, 240, 240);
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow:
+  2.6px 3px 4.3px rgba(0, 0, 0, 0.032),
+  5.9px 6.9px 10.2px rgba(0, 0, 0, 0.047),
+  10.7px 12.5px 19.3px rgba(0, 0, 0, 0.055),
+  19.1px 22.3px 34.4px rgba(0, 0, 0, 0.062),
+  37px 43.3px 64.3px rgba(0, 0, 0, 0.066),
+  100px 117px 154px rgba(0, 0, 0, 0.07)
+;
+ 
+}
+.myclass{
+  position: absolute;
+  top:20%;
+  right: 53%;
+  border: 2px black;
+}
+.myclass1{
+  text-align: center;
+}
+
+.for{
+  position: absolute;
+    top:50% ;
+    right: 38%;
+    background-color: transparent;
+    border: none;
+}
+.eye1 {
+  position: absolute;
+  top:43%;
+  right:39%;
+  background-color: transparent;
+  border: none;
+  z-index: 1;
+}
+.txt
+{
+  text-shadow: cm;
+}
+.acc
+{
+  position: absolute;
+  bottom: 460px;
+  right: 955px;
+    
+}
+.pass
+{
+  position: absolute;
+  bottom: 390px;
+  right: 955px;
+    
+}
+.sig{
+  left: 100px;
+  bottom: 10px;
+}
+.ku
+{
+  position: absolute;
+  top: 582px;
+  right: 670px;
+  border:none;
+  background-color:transparent;
+  text-decoration: underline;
+}
+.pra{
+  text-align: center;
+}
+.accoun{
+  position:absolute;
+  bottom:123px;
+  right: 730px;
+  
+}
+
+
+html {
+  height: 100%;
+  background: linear-gradient(rgb(35, 66, 98) 30%, #667);
+  overflow: hidden;
+}
+
+.snow,
+.snow:before,
+.snow:after {
+  position: absolute;
+  top: -600px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-size: 600px 600px;
+  animation: snow 15s linear infinite;
+  content: "";
+}
+
+.snow:after {
+  margin-left: -200px;
+  opacity: 0.4;
+  animation-duration: 6s;
+  animation-direction: reverse;
+  filter: blur(3px);
+}
+
+.snow:before {
+  animation-duration: 9s;
+  animation-direction: reverse;
+  margin-left: -300px;
+  opacity: 0.65;
+  filter: blur(1.5px);
+}
+
+@keyframes snow {
+  to {
+    transform: translateY(600px);
+  }
+}
+
+/* Generate the snow image using radial gradients */
+.snow {
+  background-image: radial-gradient(
+    3px 3px at 32px 22px,
+    rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)
+  ), radial-gradient(
+    3px 3px at 578px 497px,
+    rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)
+  ), radial-gradient(
+    3px 3px at 192px 233px,
+    rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)
+  ), radial-gradient(
+    5px 5px at 84px 331px,
+    rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)
+  ), radial-gradient(
+    5px 5px at 94px 267px,
+    rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)
+  ), radial-gradient(
+    5px 5px at 68px 222px,
+    rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)
+  ), radial-gradient(
+    4px 4px at 418px 282px,
+    rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)
+  ), radial-gradient(
+    4px 4px at 35px 38px,
+    rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)
+  ), radial-gradient(
+    4px 4px at 149px 347px,
+    rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)
+  ), radial-gradient(
+    3px 3px at 169px 223px,
+    rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)
+  ), radial-gradient(
+    5px 5px at 495px 474px,
+    rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)
+  ), radial-gradient(
+    5px 5px at 546px 267px,
+    rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)
+  ), radial-gradient(
+    5px 5px at 382px 53px,
+    rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)
+  ), radial-gradient(
+    4px 4px at 455px 383px,
+    rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)
+  ), radial-gradient(
+    4px 4px at 234px 25px,
+    rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)
+  ), radial-gradient(
+    4px 4px at 170px 383px,
+    rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)
+  ), radial-gradient(
+    5px 5px at 533px 331px,
+    rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)
+  ), radial-gradient(
+    3px 3px at 151px 185px,
+    rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)
+  ), radial-gradient(
+    5px 5px at 485px 324px,
+    rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)
+  ), radial-gradient(
+    4px 4px at 191px 466px,
+    rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)
+  ), radial-gradient(
+    4px 4px at 485px 86px,
+    rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)
+  ), radial-gradient(
+    3px 3px at 433px 216px,
+    rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)
+  ), radial-gradient(
+    5px 5px at 547px 178px,
+    rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)
+  ), radial-gradient(
+    3px 3px at 154px 496px,
+    rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)
+  );
+}

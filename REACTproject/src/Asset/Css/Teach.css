@@ -1,0 +1,67 @@
+.image4{
+    width:1fr;
+    height:30vw;
+}
+.image3{
+    width:1fr;
+    height:30vw;
+}
+
+#FLEX-CHILD1{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   
+}
+
+#FLEX-CHILD2{
+    border: 3px solid;
+    border-radius: 10px;
+    box-shadow:
+  7.5px 7.5px 1.9px rgba(0, 0, 0, 0.018),
+  14.2px 14.2px 4.3px rgba(0, 0, 0, 0.026),
+  20px 20px 7.7px rgba(0, 0, 0, 0.032),
+  25.3px 25.3px 12.8px rgba(0, 0, 0, 0.038),
+  31px 31px 21.2px rgba(0, 0, 0, 0.044),
+  42.3px 42.3px 37px rgba(0, 0, 0, 0.052),
+  100px 100px 80px rgba(0, 0, 0, 0.07);
+
+  background-color: #ECF4D6;
+}
+#ENTIRE-PAGE{
+    display: flex;
+    flex-direction: column;
+}
+#name{
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+}
+.educate
+{
+    text-align: center;
+}
+.author
+{
+    position: absolute;
+    right: 35%;
+}
+.phoneEmail , #sub-container , #workDays {
+    display: flex;
+    flex-direction: row;
+    gap: 20vw;
+}
+
+.Button{
+    margin-left: 20vw;
+}
+.finaloutput
+{
+    
+    position: absolute;
+    right: 400px;
+    top: 430px;
+}
+body{
+    background-color:#EEF5FF;
+}

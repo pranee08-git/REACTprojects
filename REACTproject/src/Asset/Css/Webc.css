@@ -1,0 +1,340 @@
+.bod{
+    margin: 0%;
+}
+.top{
+    margin-top:30px;
+    margin-left: 120px;
+    width:80%;
+    border: 1px solid whitesmoke;
+    height:70px;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.664);
+    border-radius: 40px;
+}
+#fontsize{
+  font-weight: 500;
+}
+.sig
+{
+  position:absolute;
+  top: 7px;
+  left: 10px;
+  
+}
+.log
+{
+  height: 3rem;
+  width: 4.5rem;
+ position: absolute;
+  top: 11px;
+  left: 18px;
+  border-radius: 40px;
+  font-family:'Lucida Sans';
+}
+.nam
+{
+  position: absolute;
+  top: 3px;
+  left: 7.5vw;
+}
+#login:hover{
+     background-color: crimson;
+     color:white;
+}
+#homeimg{
+      border-radius:50%;
+}
+.my{
+    margin-top:23px;
+    float:right;
+    padding-right: 30px;
+}
+.My{
+    float:left;
+    padding-right:10px ;
+}
+.About{
+    height:180vh;
+    background-color:rgb(230, 250, 243);
+    display:flex;
+    justify-content: center;
+  }
+.About1{
+    width:1200px;
+    height:90%;
+    border: 1px solid black;
+    border-radius: 40px;
+    background-color:rgba(251, 254, 254, 0.737);
+    margin-top: 75px;
+    border:none;
+}
+.About2{
+    height:800px;
+}
+.About3{
+    height:100%;
+    width:100%;
+    border-radius:40px;
+    background-size:cover;
+    background-image: url("https://media.istockphoto.com/id/1130655067/photo/volunteers-planting-a-tree.jpg?s=612x612&w=0&k=20&c=LN2OT16Fg46ghQ3xjGh8-95awNIpLkoHXJ8ADRIVLnU=");
+}  
+.About4{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left:70px;
+}
+.Ourj{
+    height:100vh;
+    background-color: rgb(252, 244, 232);
+ }
+.Ourj1{
+    display:flex;
+    flex-direction: column;
+}
+.Ourj3 h1{
+    text-align: center;
+}
+.Ourj2{
+    display:flex;
+    gap:10%;
+}
+.intro{
+  background-image: url('https://static.jobscan.co/blog/uploads/Volunteers-working-together-1.jpg');
+  height:100vh;
+  background-size:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position:static;
+}
+
+.intro1{
+  font-family: sans-serif;
+   font-size: 100px;
+  color:antiquewhite;
+  margin-top: 280px;
+}
+.intro2{
+  font-size:30px;
+  font-weight:500;
+  margin-top:-50px;
+  color:antiquewhite;
+}
+.intro3{
+   height:70px;
+   width:13%;
+   color:antiquewhite;
+   font-weight: 600;
+   background-color:transparent;
+   border-radius: 50px;
+   scroll-behavior:smooth;
+   font-size:23px;
+   border: 1px solid white;
+   cursor:grab;
+   text-align: center;
+   text-decoration: none;
+  
+}
+#down {
+  margin-top: 100vh;
+}
+.intro3:hover{
+  background-color: orangered;
+  transform: scale(1.1);
+}
+.intro3 span {
+  display: inline-block;
+  position: relative;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+
+.intro3 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.intro3:hover span {
+  padding-right: 25px;
+  
+}
+
+.intro:hover span:after {
+  opacity: 1;
+  right: 0;
+  
+}
+.mid{
+     display:flex;
+     flex-direction: column;
+    height:100vh;
+    background-color:rgb(230, 250, 243);
+}
+.m1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:2%;
+    margin-top:-40px;
+}
+.mid1{
+    cursor: pointer;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 3px solid rgb(8, 7, 5);
+}
+.mid1:hover{
+  transform:scale(1.1);
+}
+#mi1{
+    background-size:cover;
+    background-repeat: no-repeat;
+   /*background-position: center;*/
+    height: 250px;
+    width:30%; 
+    background-image: url("https://www.sriramakrishnahospital.com/wp-content/uploads/2021/06/Blood-Donation-1.jpg");
+  }
+
+  #mi2{
+    background-size: cover;
+    height:250px;
+    width:30%; 
+    background-repeat: no-repeat;
+    background-image: url("https://makchic.com/wp-content/uploads/2018/04/competent-curious-confident-reggio-emilia-3.jpg");
+  }
+  #mi3{
+    background-size: cover;
+    height:250px;
+    width:30%; 
+    background-repeat: no-repeat;
+    background-image: url("https://www.earthday.org/wp-content/uploads/2019/11/iStock-475882493.jpg");
+  }
+  .FollowUs
+  {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    height:100vh;
+    background-color: rgba(250, 235, 215, 0.445)
+  }
+  .FollowUsi{
+    display:flex;
+    gap:20px;
+  }
+  .FollowUsj{
+    border-radius: 50%;
+    border: 1px solid whitesmoke;
+    height:4rem;
+    width:4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2rem;
+    background-color: lightgray;
+    color:rgb(132, 4, 79);
+  }
+  .lastus
+  {
+    height:4rem;
+    width:4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:3rem;
+  
+    }
+  .f{
+    background-color: rgb(240, 29, 29);
+    height: 80px;
+    width:100%;
+    position:absolute;
+  }
+
+  .f1{
+    float:right;
+    color:whitesmoke; 
+    cursor: pointer;
+    
+  }
+  .f1:hover{
+    color:rgb(255, 136, 0);
+    text-decoration:underline;
+    transform: scale(1.1);
+  }
+  .f2{
+    float:left;
+    padding-left: 40px;
+    color:whitesmoke; 
+  }
+  
+
+   
+  #slideshow {
+    
+    overflow: hidden;
+    height: 420px;
+    width: 720px;
+    margin: 0 auto;
+    
+  }
+   
+  .slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+    
+  }
+   
+  .slide-wrapper {
+  
+    width: calc(728px * 4);
+   
+    animation: slide 7s ease infinite;
+  }
+ 
+  .slide:nth-child(1) {
+    background-image: url("https://students.1fbusa.com/hubfs/25%20Ways%20to%20Volunteer%20in%20Your%20Community.jpg");
+  }
+   
+  .slide:nth-child(2) {
+    background-image: url("https://youthsquad.makingfriends.com/wp-content/uploads/2019/02/extended-family-volunteering.jpg");
+  }
+   
+  .slide:nth-child(3) {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Vilnius_Marathon_2015_volunteers_by_Augustas_Didzgalvis.jpg/1200px-Vilnius_Marathon_2015_volunteers_by_Augustas_Didzgalvis.jpg");
+  }
+   
+  .slide:nth-child(4) {
+    background-image: url("https://media.istockphoto.com/id/1254057341/photo/volunteer-teaching-in-africa-school-near-masai-mara-game-reserve-in-kenya.jpg?s=612x612&w=0&k=20&c=ZEj2py-HV0UOm9CA4LmyGtronexuJnSeJgQtnSQs4iA=");
+  }
+  
+  @keyframes slide {
+  
+    20% {
+      margin-left: 0px;
+    }
+   
+    40% {
+      margin-left: calc(-728px * 1);
+    }
+   
+    60% {
+      margin-left: calc(-728px * 2);
+    }
+   
+    80% {
+      margin-left: calc(-728px * 3);
+    }
+  }
+  html{
+    scroll-behavior: smooth;
+  }
